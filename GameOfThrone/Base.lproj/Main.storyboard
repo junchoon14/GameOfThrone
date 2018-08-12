@@ -341,7 +341,7 @@
                                 </segments>
                                 <color key="tintColor" red="0.25982087850000002" green="0.29719516629999998" blue="0.34510505200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Dp-wV-P0a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Dp-wV-P0a">
                                 <rect key="frame" x="16" y="118" width="343" height="207"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="207" id="BvK-XE-1n8"/>
