@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC223C8A2120185000C49F37 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC223C892120185000C49F37 /* WebViewController.swift */; };
 		BCB39AFE211FFA45006CBB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB39AFD211FFA45006CBB29 /* AppDelegate.swift */; };
-		BCB39B00211FFA45006CBB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB39AFF211FFA45006CBB29 /* ViewController.swift */; };
 		BCB39B03211FFA45006CBB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB39B01211FFA45006CBB29 /* Main.storyboard */; };
 		BCB39B05211FFA4B006CBB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB39B04211FFA4B006CBB29 /* Assets.xcassets */; };
 		BCB39B08211FFA4B006CBB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB39B06211FFA4B006CBB29 /* LaunchScreen.storyboard */; };
+		BCB39B10211FFA80006CBB29 /* Roles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB39B0F211FFA80006CBB29 /* Roles.swift */; };
+		BCB39B12212003BD006CBB29 /* RoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB39B11212003BD006CBB29 /* RoleTableViewController.swift */; };
+		BCB39B14212003E6006CBB29 /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB39B13212003E6006CBB29 /* RoleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC223C892120185000C49F37 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		BCB39AFA211FFA45006CBB29 /* GameOfThrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB39AFD211FFA45006CBB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB39AFF211FFA45006CBB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCB39B02211FFA45006CBB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCB39B04211FFA4B006CBB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB39B07211FFA4B006CBB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB39B09211FFA4B006CBB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB39B0F211FFA80006CBB29 /* Roles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roles.swift; sourceTree = "<group>"; };
+		BCB39B11212003BD006CBB29 /* RoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleTableViewController.swift; sourceTree = "<group>"; };
+		BCB39B13212003E6006CBB29 /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				BCB39AFD211FFA45006CBB29 /* AppDelegate.swift */,
-				BCB39AFF211FFA45006CBB29 /* ViewController.swift */,
+				BCB39B11212003BD006CBB29 /* RoleTableViewController.swift */,
+				BCB39B13212003E6006CBB29 /* RoleViewController.swift */,
+				BC223C892120185000C49F37 /* WebViewController.swift */,
 				BCB39B01211FFA45006CBB29 /* Main.storyboard */,
+				BCB39B0F211FFA80006CBB29 /* Roles.swift */,
 				BCB39B04211FFA4B006CBB29 /* Assets.xcassets */,
 				BCB39B06211FFA4B006CBB29 /* LaunchScreen.storyboard */,
 				BCB39B09211FFA4B006CBB29 /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB39B00211FFA45006CBB29 /* ViewController.swift in Sources */,
+				BCB39B14212003E6006CBB29 /* RoleViewController.swift in Sources */,
+				BCB39B12212003BD006CBB29 /* RoleTableViewController.swift in Sources */,
+				BCB39B10211FFA80006CBB29 /* Roles.swift in Sources */,
+				BC223C8A2120185000C49F37 /* WebViewController.swift in Sources */,
 				BCB39AFE211FFA45006CBB29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
